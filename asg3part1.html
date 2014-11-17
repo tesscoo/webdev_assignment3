@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<!-- This is for the javascript assignment 3-->
+<!-- Post link from index.html when done to NYU classes-->
+
+<html>
+	<head>
+		<title>My JS Assignment</title>
+		<meta charset="utf-8">
+
+		<script type="text/javascript">
+		function swap(){
+			var swapping = p1.innerHTML
+			document.getElementById('p1').innerHTML= p2.innerHTML
+	 		document.getElementById('p2').innerHTML= swapping;
+		}
+		
+		</script>
+		
+		<script src="asg3part1.js"></script>
+
+	</head>
+
+	<body onload="styles()">
+	
+	<img src="sushi.png" onclick="newdoc()" width="150" height="250" style="float:right">
+
+	<p id="p1" onclick="swap()"> 
+	Want to see these paragraphs swap?<!-- This paragraph will be swapped -->
+	</p>
+	<p id="p2" onclick="swap()">
+	Click on one of them! <!-- This paragraph will be swapped -->
+	</p>
+	
+	<button onclick="printprizes()">Click here to see the prizes</button>
+	<p id="prizelist"></p>
+	<button onclick="randarray()">Win a prize</button><br><br>
+	<div id="prize"></div><br>
+	
+	
+	
+	</body>
+	
+</html>

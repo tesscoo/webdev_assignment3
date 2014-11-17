@@ -1,0 +1,45 @@
+/* 
+This is the CSS file for the Calendar assignment
+ */
+
+body {background-Color: #ffeedd;
+		font-family: Arial, sans-serif;
+		}
+
+h1 {
+	font-size: 1.2 em;
+	text-align: center;
+	font-weight: lighter;
+	}
+	
+h2 {
+	font-size: 1 em;
+	text-align: center;
+	font-weight: lighter;
+	}
+	
+hr {border-color: #ffccbb;
+	border-width: 1px;}
+	
+#title {background-Color: #ee8899;
+		padding: 10px;
+			}
+
+#subtitle {background-Color: #ffccbb;
+			padding: 10px;
+			}	
+
+#input {background-Color: #ffddcc;
+		text-align: center;
+		padding: 20px;}
+		
+#userAnswer {background-Color: #ffddcc;
+		text-align: center;
+		padding: 20px;}
+		
+#end {padding-top: 20px; 
+		padding-bottom: 20px;
+		color: black;}
+		
+#footer {font-size: 0.5em;
+	text-align: center;}
